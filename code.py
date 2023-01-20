@@ -41,7 +41,7 @@ def copy():
 def paste():
     textarea.event_generate(("<<Paste>>"))
 def about():
-    tsmg.showinfo("About","Notepad by rdrishi")
+    tsmg.showinfo("About","Notepad by Anshuman")
 if _name_ == '_main_':
  root=Tk()
  root.geometry("500x400")
